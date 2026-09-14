@@ -110,9 +110,9 @@ export const core = [
   },
 
   {
-    name: "THAYAT",
+    name: "HIMANSHU",
     role: "Core Team",
-    image: "/Pictures/core-team/Thayat.jpeg",
+    image: "/Pictures/core-team/Himanshu.png",
     linkedin: "#",
     connectlink: "#",
   },
