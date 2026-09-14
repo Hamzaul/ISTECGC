@@ -3,6 +3,18 @@
 // ============================================================
 
 export const mentors = [
+    {
+    name: "Prof.(Dr.) Anish Gupta",
+    role: "Pro Vice Chancellor - Academics & International Affairs",
+    image: "/Pictures/mentor/Anish.jpeg",
+    linkedin: "https://www.linkedin.com/in/prof-dr-anish-gupta-79059786?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  },
+    {
+    name: "Dr Anamol Gautam",
+    role: "Professor & Head Applied Science",
+    image: "/Pictures/mentor/anmol.jpeg",
+    linkedin: "https://www.linkedin.com/in/dr-anamol-gautam-b2953062?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  },
   {
     name: "MISS SANYA",
     role: "Faculty Mentor",
@@ -29,8 +41,8 @@ export const president = [
     name: "HRITHIK",
     role: "President",
     image: "/Pictures/presidents/Hrithik.jpeg",
-    linkedin: "#",
-    connectlink: "#",
+    linkedin: "https://www.linkedin.com/in/hrithikky?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    connectlink: "https://www.instagram.com/hrithik.ky?stkn=MWo4bjNocnJ4dW93bQ==",
   },
 ];
 
@@ -40,10 +52,18 @@ export const president = [
 
 export const core = [
   {
-    name: "NAVIN KUMAR",
+    name: "VISHWAS PANWAR",
     role: "Core Team",
-    image: "/Pictures/core-team/Navin.jpg",
-    linkedin: "https://www.linkedin.com/in/navin444699/",
+    image: "/Pictures/core-team/vishwas.jpeg",
+    linkedin: "https://www.linkedin.com/in/vishwas-panwar-19748237a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    connectlink: "https://www.instagram.com/vashu.panwarr?stkn=czcybmk4Y201OHdq",
+  },
+  {
+    name: "HAMZA",
+    role: "Core Team",
+    image: "/Pictures/core-team/Hamza2.jpeg",
+    linkedin: "https://www.linkedin.com/in/hamzaul-rahman-40107b306",
+    connectlink: "https://www.instagram.com/_hamzaul_/",
   },
   {
     name: "ARPAN JINDAL",
@@ -51,20 +71,6 @@ export const core = [
     image: "/Pictures/core-team/arpan.jpeg",
     linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
     connectlink: "https://www.instagram.com/jindal_arpan007?stkn=MWQ3MXluZW82MGZ2Yw%3D%3D&utm_source=qr",
-  },
-    {
-    name: "RANJEET",
-    role: "Core Team",
-    image: "/Pictures/core-team/ranjeet.jpeg",
-    linkedin: "https://www.linkedin.com/in/ranjeet-kumar-pandit-7951b233a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    connectlink: "https://www.instagram.com/ranjeetkumar6040?stkn=MXkwcWUwbG5jejJxMQ==",
-  },
-  {
-    name: "VISHWAS PANWAR",
-    role: "Core Team",
-    image: "/Pictures/core-team/vishwas.jpeg",
-    linkedin: "https://www.linkedin.com/in/vishwas-panwar-19748237a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    connectlink: "https://www.instagram.com/vashu.panwarr?stkn=czcybmk4Y201OHdq",
   },
   {
     name: "Shaurya",
@@ -74,11 +80,29 @@ export const core = [
     connectlink: "https://www.instagram.com/monarchreborn/",
   },
   {
-    name: "HAMZA",
+    name: "NAVIN KUMAR",
     role: "Core Team",
-    image: "/Pictures/core-team/Hamza.jpeg",
-    linkedin: "https://www.linkedin.com/in/hamzaul-rahman-40107b306",
-    connectlink: "https://www.instagram.com/_hamzaul_/",
+    image: "/Pictures/core-team/Navin.jpg",
+    linkedin: "https://www.linkedin.com/in/navin444699/",
+  },
+  {
+    name: "RANJEET",
+    role: "Core Team",
+    image: "/Pictures/core-team/ranjeet.jpeg",
+    linkedin: "https://www.linkedin.com/in/ranjeet-kumar-pandit-7951b233a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    connectlink: "https://www.instagram.com/ranjeetkumar6040?stkn=MXkwcWUwbG5jejJxMQ==",
+  },
+  {
+    name: "AADIL",
+    role: "Core Team",
+    image: "/Pictures/core-team/Adil.jpeg",
+    connectlink: "https://www.instagram.com/md_aadil__?stkn=Zm02b2UxNTJtaWRv",
+  },
+  {
+    name: "KASTAB",
+    role: "Core Team",
+    image: "/Pictures/core-team/Kastab.jpeg",
+    linkedin: "https://www.linkedin.com/in/kastab?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     name: "ADITYA",
@@ -188,6 +212,20 @@ export const core = [
     image: "/Pictures/core-team/vishavjeet.png",
     linkedin: "https://www.linkedin.com/in/vishavjeet-panesar-b711a2424?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     connectlink: "https://www.instagram.com/vishavjeet_angad?stkn=MTI3cHV0d2dlN2EzdQ==",
+  },
+  {
+    name: "GOURAV",
+    role: "Core Team",
+    image: "/Pictures/core-team/gaurav.jpeg",
+    linkedin: "https://www.linkedin.com/in/gaurav-kumar-9347b6423",
+    connectlink: "https://www.instagram.com/gaurav_kumar_123?stkn=MTI3cHV0d2dlN2EzdQ==",
+  },
+  {
+    name: "SAHIL",
+    role: "Core Team",
+    image: "/Pictures/core-team/Sahil.jpeg",
+    linkedin: "https://www.linkedin.com/in/sahil-kumar-53a930383/?lipi=urn%3Ali%3Apage%3Ap_mwlite_notifications%3B%2BScPm%2BybQbi5RE03vj7zCw%3D%3D",
+    connectlink: "https://www.linkedin.com/in/sahil-kumar-53a930383/?lipi=urn%3Ali%3Apage%3Ap_mwlite_notifications%3B%2BScPm%2BybQbi5RE03vj7zCw%3D%3D",
   },
   
 ];

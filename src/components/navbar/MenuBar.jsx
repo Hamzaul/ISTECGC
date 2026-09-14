@@ -9,8 +9,10 @@ const menuItems = [
   { label: "HOME", href: "/" },
   { label: "TEAM", href: "/team" },
   { label: "EVENTS", href: "/events" },
+  { label: "MYS", href: "/mys" },
+  { label: "ITR", href: "/itr" },
   { label: "GALLERY", href: "/gallery" },
-  { label: "CONTACT", href: "/contact" },
+  
 ];
 
 const MenuBar = () => {
@@ -52,7 +54,7 @@ const MenuBar = () => {
       <div className="absolute left-0 right-0 top-0 z-30 flex items-center justify-between px-5 py-5 sm:px-8 md:px-14 lg:px-20">
         {/* Brand / section indicator */}
         <div className="font-mono text-[9px] tracking-[0.3em] text-ink/50 sm:text-[10px]">
-          ISTE-CGC
+          ISTE-CGCU
         </div>
 
         {/* Menu trigger */}

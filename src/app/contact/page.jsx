@@ -52,7 +52,7 @@ const Contact = () => {
 
         <p className="font-hamlin text-center max-w-2xl text-base md:text-lg text-gray-700 mb-8">
           Have a question, a partnership idea, or want to get involved with
-          ISTE-CGC? Send us a message and we&apos;ll get back to you.
+          ISTE-CGCU? Send us a message and we&apos;ll get back to you.
         </p>
 
         <form

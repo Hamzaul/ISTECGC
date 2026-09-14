@@ -9,8 +9,10 @@ const links = [
   { title: "Home", path: "/" },
   { title: "Team", path: "/team" },
   { title: "Events", path: "/events" },
+  { title: "MYS", path: "/mys" },
+  { title: "ITR", path: "/itr" },
   { title: "Gallery", path: "/gallery" },
-  { title: "Contact", path: "/contact" },
+  
 ];
 
 const listVariants = {

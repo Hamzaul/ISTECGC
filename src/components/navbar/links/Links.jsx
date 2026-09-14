@@ -5,7 +5,8 @@ const Links = ({ isOpen, handleClick }) => {
     { title: "HOME", path: "/" },
     { title: "TEAM", path: "/team" },
     { title: "EVENTS", path: "/events" },
-    { title: "GRAVITON", path: "/events" },
+    { title: "MYS", path: "/mys" },
+    { title: "ITR", path: "/itr" },
     { title: "GALLERY", path: "/gallery" },
   ];
 

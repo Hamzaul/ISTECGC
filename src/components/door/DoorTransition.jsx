@@ -265,7 +265,7 @@ const DoorTransition = () => {
             className="absolute inset-0 flex items-center justify-center bg-paper"
           >
             <span className="select-none whitespace-nowrap font-anton leading-none text-ink text-[16vw] sm:text-[12vw] md:text-[9vw] lg:text-[7.5vw]">
-              ISTE-CGC
+              ISTE-CGCU
             </span>
 
             <span
@@ -294,7 +294,7 @@ const DoorTransition = () => {
             className="absolute inset-0 flex items-center justify-center bg-paper"
           >
             <span className="select-none whitespace-nowrap font-anton leading-none text-ink text-[16vw] sm:text-[12vw] md:text-[9vw] lg:text-[7.5vw]">
-              ISTE-CGC
+              ISTE-CGCU
             </span>
 
             <span
@@ -305,7 +305,7 @@ const DoorTransition = () => {
                 marginLeft: "0.75rem",
               }}
             >
-              CGC STUDENT CHAPTER
+              CGCU STUDENT CHAPTER
             </span>
           </motion.div>
         </motion.div>
