@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "ISTE-CGC",
-  shortName: "ISTE-CGC",
+  name: "ISTE-CGCU",
+  shortName: "ISTE-CGC University",
   legalName: "Indian Society for Technical Education - CGC Student Chapter",
   description:
     "ISTE-CGC is the CGC student chapter of the Indian Society for Technical Education (ISTE), determined to impart technical knowledge and inspire solutions with innovation, passion and excellence.",
