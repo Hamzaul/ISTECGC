@@ -13,7 +13,7 @@ const Projectsembed = () => {
         <a href="/events">
         <Image
           alt="project poster"
-          src="/Pictures/events/graviton_poster.webp"
+          src="/Pictures/events/graviton_Poster.webp"
           width={960}
           height={501}
           className="object-contain w-[300px] h-auto md:w-[960px]"
