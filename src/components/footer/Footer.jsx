@@ -60,9 +60,6 @@ const Footer = () => {
           <div className="px-1 py-2 md:py-0 md:px-2 hidden md:flex">
             <Link href="/contact">Contact Us</Link>
           </div>
-          <div className="px-1 md:py-0 md:px-2">
-            <Link href="/devs">Developers</Link>
-          </div>
         </div>
         <div className="text-sm py-2 md:text-xl lg:text-2xl flex items-center">
           Made with{" "}

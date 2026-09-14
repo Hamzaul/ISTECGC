@@ -1,15 +1,21 @@
 // ============================================================
+// ADVISOR / PRO VICE CHANCELLOR
+// ============================================================
+
+export const anishGupta = {
+  name: "Prof.(Dr.) Anish Gupta",
+  role: "Pro Vice Chancellor - Academics & International Affairs",
+  image: "/Pictures/mentor/Anish.jpeg",
+  linkedin:
+    "https://www.linkedin.com/in/prof-dr-anish-gupta-79059786?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+};
+
+
+// ============================================================
 // MENTORS
 // ============================================================
 
 export const mentors = [
-  {
-    name: "Prof.(Dr.) Anish Gupta",
-    role: "Pro Vice Chancellor - Academics & International Affairs",
-    image: "/Pictures/mentor/Anish.jpeg",
-    linkedin:
-      "https://www.linkedin.com/in/prof-dr-anish-gupta-79059786?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-  },
   {
     name: "Dr Anamol Gautam",
     role: "Professor & Head Applied Science",
@@ -264,16 +270,6 @@ export const members = [
 // ============================================================
 
 export const volunteers = [
-  {
-    name: "SAHIL",
-    role: "Volunteer",
-    image: "/Pictures/core-team/Sahil.jpeg",
-    linkedin:
-      "https://www.linkedin.com/in/sahil-kumar-53a930383/?lipi=urn%3Ali%3Apage%3Ap_mwlite_notifications%3B%2BScPm%2BybQbi5RE03vj7zCw%3D%3D",
-    connectlink:
-      "https://www.linkedin.com/in/sahil-kumar-53a930383/?lipi=urn%3Ali%3Apage%3Ap_mwlite_notifications%3B%2BScPm%2BybQbi5RE03vj7zCw%3D%3D",
-  },
-
   {
     name: "VIJAY LAKSHMI",
     role: "Volunteer",

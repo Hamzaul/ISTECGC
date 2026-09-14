@@ -2,8 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import ScrambleText from "@/components/common/ScrambleText";
+import { siteConfig } from "@/lib/siteConfig";
 
 const menuItems = [
   { label: "HOME", href: "/" },
@@ -12,7 +14,6 @@ const menuItems = [
   { label: "MYS", href: "/mys" },
   { label: "ITR", href: "/itr" },
   { label: "GALLERY", href: "/gallery" },
-  
 ];
 
 const MenuBar = () => {
@@ -50,20 +51,41 @@ const MenuBar = () => {
 
   return (
     <>
-      {/* LANDING MENU BAR */}
+      {/* =====================================================
+          LANDING MENU BAR
+      ===================================================== */}
       <div className="absolute left-0 right-0 top-0 z-30 flex items-center justify-between px-5 py-5 sm:px-8 md:px-14 lg:px-20">
-        {/* Brand / section indicator */}
-        <div className="font-mono text-[9px] tracking-[0.3em] text-ink/50 sm:text-[10px]">
-          ISTE-CGCU
+
+        {/* BRAND LOGOS */}
+        <div className="flex items-center gap-3">
+          <Image
+            src={siteConfig.cgcLogo}
+            alt="CGC University"
+            width={70}
+            height={22}
+            className="h-auto w-[50px] object-contain sm:w-[50px]"
+            priority
+          />
+
+          <Image
+            src={siteConfig.logo}
+            alt="ISTE-CGC"
+            width={80}
+            height={32}
+            className="h-auto w-[60px] object-contain sm:w-[60px]"
+            priority
+          />
         </div>
 
-        {/* Menu trigger */}
+        {/* MENU TRIGGER */}
         <button
           type="button"
           onClick={handleToggle}
           aria-expanded={open}
           aria-controls="landing-navigation"
-          aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+          aria-label={
+            open ? "Close navigation menu" : "Open navigation menu"
+          }
           className="group flex items-center gap-3 rounded-full border border-ink/20 bg-paper/70 px-4 py-2 font-mono text-[10px] tracking-[0.25em] text-ink backdrop-blur-sm transition-colors duration-300 hover:border-blood hover:text-blood focus-visible:outline focus-visible:outline-2 focus-visible:outline-blood"
         >
           <span className="relative min-w-[45px] text-left">
@@ -106,7 +128,9 @@ const MenuBar = () => {
         </button>
       </div>
 
-      {/* FULLSCREEN LANDING NAVIGATION */}
+      {/* =====================================================
+          FULLSCREEN LANDING NAVIGATION
+      ===================================================== */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -153,6 +177,7 @@ const MenuBar = () => {
                 className="group flex items-center gap-3 rounded-full border border-paper/20 px-4 py-2 font-mono text-[10px] tracking-[0.25em] text-paper/80 transition-colors duration-300 hover:border-blood hover:text-blood focus-visible:outline focus-visible:outline-2 focus-visible:outline-blood"
               >
                 CLOSE
+
                 <span
                   aria-hidden="true"
                   className="text-base leading-none transition-transform duration-300 group-hover:rotate-90"
@@ -218,7 +243,9 @@ const MenuBar = () => {
 
             {/* Bottom information */}
             <div className="flex flex-col gap-4 border-t border-paper/15 pt-5 font-mono text-[9px] tracking-[0.2em] text-paper/45 sm:flex-row sm:items-end sm:justify-between sm:text-[10px]">
-              <span>INDIAN SOCIETY FOR TECHNICAL EDUCATION</span>
+              <span>
+                INDIAN SOCIETY FOR TECHNICAL EDUCATION
+              </span>
 
               <div className="flex gap-5">
                 <a

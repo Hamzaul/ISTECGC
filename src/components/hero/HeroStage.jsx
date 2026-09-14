@@ -17,7 +17,6 @@ const HeroStage = () => {
       <MenuBar />
 
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_82%_12%,rgba(139,0,0,0.10),transparent_55%)]" />
-
       <p className="relative z-10 font-mono text-[10px] tracking-[0.35em] text-ink/50 sm:text-xs">
         {siteConfig.shortName} — {siteConfig.address.line2}
       </p>

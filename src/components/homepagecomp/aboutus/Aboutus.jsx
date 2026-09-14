@@ -16,7 +16,7 @@ const Aboutus = () => {
   }, [controls, inView]);
 
   const text =
-    "ISTE-CGCU is the CGCU student chapter of the Indian Society for Technical Education (ISTE), a national, non-profit making society registered under the Societies Registration Act of 1860.".split(
+    "ISTE-CGCU is the student chapter of the Indian Society for Technical Education (ISTE), a national, non-profit making society registered under the Societies Registration Act of 1860.".split(
       " "
     );
   const text2 =

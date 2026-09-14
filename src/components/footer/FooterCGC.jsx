@@ -9,7 +9,6 @@ const quickLinks = [
   { title: "Events", path: "/events" },
   { title: "Team", path: "/team" },
   { title: "Contact Us", path: "/contact" },
-  { title: "Developers", path: "/devs" },
 ];
 
 /**

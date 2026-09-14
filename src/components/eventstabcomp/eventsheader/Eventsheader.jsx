@@ -6,7 +6,7 @@ const Eventsheader = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center whitespace-normal md:text-nowrap my-1 px-2 text-center">
-        <p className="text-[clamp(1.75rem,10vw,3.4rem)] md:text-[55px] lg:text-[207px] leading-none md:py-2">
+        <p className="text-[clamp(1.75rem,10vw,3.4rem)] md:text-[55px] lg:text-[190px] leading-none md:py-2">
           READ ALL ABOUT IT
         </p>
       </div>

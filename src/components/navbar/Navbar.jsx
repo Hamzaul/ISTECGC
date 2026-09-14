@@ -34,6 +34,7 @@ const Navbar = () => {
     ${isScrolled || isOpen ? "text-white" : "text-black"}`}
     >
       <div className="flex items-center">
+        <a href="/"><img src={siteConfig.cgcLogo} alt="CGC University Logo" className="w-8 h-15" /></a>
         <a href="/">
           {/* TODO: drop the real ISTE-CGC logo file at siteConfig.logo */}
           <Image
