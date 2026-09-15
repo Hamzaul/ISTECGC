@@ -24,14 +24,14 @@ export const mentors = [
       "https://www.linkedin.com/in/dr-anamol-gautam-b2953062?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
-    name: "MISS SANYA",
+    name: "SANYA BATRA",
     role: "Faculty Mentor",
     image: "/Pictures/mentor/sanya.jpeg",
     linkedin: "#",
     connectlink: "#",
   },
   {
-    name: "MISS AKSHITA",
+    name: "DR. AKSHITA",
     role: "Faculty Mentor",
     image: "/Pictures/mentor/Mentor.jpeg",
     linkedin: "#",
@@ -197,6 +197,11 @@ export const core = [
       "https://www.linkedin.com/in/samriti-choudhary-93869a31b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     connectlink:
       "https://www.instagram.com/_im.samriti_?stkn=ZDBxdXVwbTEzdjh2",
+  },
+  {
+    name: "KHUSBOO",
+    role: "Core Team",
+    image: "/Pictures/core-team/Khushboo.jpeg",
   },
 ];
 
