@@ -89,15 +89,6 @@ export const core = [
     connectlink:
       "https://www.instagram.com/jindal_arpan007?stkn=MWQ3MXluZW82MGZ2Yw%3D%3D&utm_source=qr",
   },
-
-  {
-    name: "SHAURYA",
-    role: "Core Team",
-    image: "/Pictures/core-team/shaurya.jpeg",
-    linkedin: "http://www.linkedin.com/in/shaurya2006",
-    connectlink: "https://www.instagram.com/monarchreborn/",
-  },
-
   {
     name: "NAVIN KUMAR",
     role: "Core Team",
@@ -122,25 +113,6 @@ export const core = [
     linkedin: "#",
     connectlink: "#",
   },
-
-  {
-    name: "ALAVYA",
-    role: "Core Team",
-    image: "/Pictures/core-team/Alavya.jpeg",
-    linkedin:
-      "https://www.linkedin.com/in/alavya-bajpai?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    connectlink: "#",
-  },
-
-  {
-    name: "SHIVANGI",
-    role: "Core Team",
-    image: "/Pictures/core-team/Shivangi.jpeg",
-    linkedin: "#",
-    connectlink:
-      "https://www.instagram.com/shivangitiwari2007?stkn=MTIzNDN6MWl2YWNzcg==",
-  },
-
   {
     name: "TANISHQ",
     role: "Core Team",
@@ -211,14 +183,6 @@ export const core = [
 // ============================================================
 
 export const members = [
-  {
-    name: "MAHI MISHRA",
-    role: "Member",
-    image: "/Pictures/core-team/Mahi.jpeg",
-    linkedin: "#",
-    connectlink: "#",
-  },
-
   {
     name: "SUNNY",
     role: "Member",

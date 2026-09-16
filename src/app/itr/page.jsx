@@ -144,94 +144,107 @@ const ITR = () => {
           </div>
         </section>
 
-        {/* =====================================================
-            COMING SOON
-        ====================================================== */}
-        <section className="px-5 md:px-10 lg:px-14 py-16 md:py-24">
-          <div className="max-w-[1600px] mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
-              className="
-                border-4
-                border-black
-                min-h-[420px]
-                md:min-h-[520px]
-                flex
-                flex-col
-                items-center
-                justify-center
-                text-center
-                relative
-                overflow-hidden
-              "
-            >
-              {/* Background Number */}
-              <span
-                className="
-                  absolute
-                  text-[clamp(12rem,30vw,30rem)]
-                  font-bold
-                  leading-none
-                  text-black/[0.035]
-                  select-none
-                  pointer-events-none
-                "
-              >
-                ITR
-              </span>
+        
+{/* =====================================================
+    TECHREACH IMAGE
+====================================================== */}
+<section className="px-5 md:px-10 lg:px-14 py-16 md:py-24">
+  <div className="max-w-[1600px] mx-auto">
 
-              {/* Corner Details */}
-              <div className="absolute top-5 left-5 w-8 h-8 border-t-4 border-l-4 border-black" />
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 0.7,
+        ease: "easeOut",
+      }}
+      className="
+        border-4
+        border-black
+        relative
+        overflow-hidden
+        bg-black
+        h-[420px]
+        md:h-[520px]
+        lg:h-[650px]
+      "
+    >
 
-              <div className="absolute top-5 right-5 w-8 h-8 border-t-4 border-r-4 border-black" />
+      {/* =================================================
+          IMAGE
+      ================================================== */}
+      <img
+        src="/Pictures/itr/itr.jpeg"
+        alt="ISTE-CGCU TechReach"
+        className="
+          absolute
+          inset-0
+          w-full
+          h-full
+          object-cover
+          object-center
+          block
+        "
+      />
 
-              <div className="absolute bottom-5 left-5 w-8 h-8 border-b-4 border-l-4 border-black" />
+      {/* =================================================
+          TOP LEFT LABEL
+      ================================================== */}
+      <div
+        className="
+          absolute
+          top-0
+          left-0
+          z-10
+          bg-white
+          border-r-4
+          border-b-4
+          border-black
+          px-4
+          py-3
+          md:px-6
+          md:py-4
+        "
+      >
+        <p className="text-xs md:text-sm tracking-[0.25em] font-medium">
+          ITR / 02
+        </p>
+      </div>
 
-              <div className="absolute bottom-5 right-5 w-8 h-8 border-b-4 border-r-4 border-black" />
+      {/* =================================================
+          BOTTOM RIGHT LABEL
+      ================================================== */}
+      <div
+        className="
+          absolute
+          bottom-0
+          right-0
+          z-10
+          bg-white
+          border-l-4
+          border-t-4
+          border-black
+          px-4
+          py-3
+          md:px-6
+          md:py-4
+          flex
+          items-center
+          gap-3
+        "
+      >
+        <span className="w-3 h-3 bg-[#8B0000] rounded-full" />
 
-              {/* Content */}
-              <div className="relative z-10 px-5">
-                <p className="text-sm md:text-base tracking-[0.3em] mb-5">
-                  ITR / 02
-                </p>
+        <p className="text-xs md:text-sm tracking-[0.2em]">
+          ISTE-CGCU TECHREACH
+        </p>
+      </div>
 
-                <h2
-                  className="
-                    font-bold
-                    leading-[0.85]
-                    tracking-[-0.04em]
-                    text-[clamp(4rem,12vw,11rem)]
-                  "
-                >
-                  COMING
-                  <br />
-                  </h2>
-                  <h2  
-                  className="
-                    font-bold
-                    uppercase
-                    tracking-[-0.04em]
-                    leading-[0.82]
-                    text-[clamp(4rem,10vw,10rem)]
-                    text-[#8B0000]
-                  ">
-                  SOON
-                </h2>
+    </motion.div>
+  </div>
+</section>
 
-                <div className="flex items-center justify-center gap-3 mt-7">
-                  <span className="w-3 h-3 bg-[#8B0000] rounded-full" />
-
-                  <p className="text-xs md:text-sm tracking-[0.25em]">
-                    SOMETHING NEW IS ON THE WAY
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </section>
 
         {/* =====================================================
             FINAL STATEMENT
