@@ -155,11 +155,18 @@ export const core = [
     connectlink: "#",
   },
   {
+    name: "ARNAB",
+    role: "Core Team",
+    image: "/Pictures/core-team/arnab.jpg",
+    linkedin: "#",
+    connectlink: "#",
+  },
+  {
     name: "GOURAV",
     role: "Core Team",
-    image: "/Pictures/core-team/gourav.jpeg",
+    image: "/Pictures/core-team/gaurav.jpeg",
     linkedin: "#",
-    connectlink: "#",S
+    connectlink: "#",
   },
   {
     name: "RITU",
