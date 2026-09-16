@@ -96,6 +96,11 @@ export const core = [
     linkedin: "https://www.linkedin.com/in/navin444699/",
     connectlink: "#",
   },
+  {
+    name: "RANJEET",
+    role: "Core Team",
+    image: "/Pictures/core-team/ranjeet.jpeg",
+  },
 
   {
     name: "AADIL",
@@ -105,7 +110,6 @@ export const core = [
     connectlink:
       "https://www.instagram.com/md_aadil__?stkn=Zm02b2UxNTJtaWRv",
   },
-
   {
     name: "HIMANSHU",
     role: "Core Team",
@@ -150,7 +154,13 @@ export const core = [
     linkedin: "#",
     connectlink: "#",
   },
-
+  {
+    name: "GOURAV",
+    role: "Core Team",
+    image: "/Pictures/core-team/gourav.jpeg",
+    linkedin: "#",
+    connectlink: "#",S
+  },
   {
     name: "RITU",
     role: "Core Team",
@@ -238,17 +248,6 @@ export const members = [
 // ORDER: EXACTLY AS PROVIDED
 // ============================================================
 
-export const volunteers = [
-  {
-    name: "VIJAY LAKSHMI",
-    role: "Volunteer",
-    image: "/Pictures/core-team/Vijay.jpg",
-    linkedin:
-      "https://www.linkedin.com/in/vijay-lakshmi-chaudhary-61669a40a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    connectlink:
-      "https://www.instagram.com/vijaylakshmi_1_1?stkn=MWVpMjAxOHZucjR0aA==",
-  },
-];
 
 // ============================================================
 // TEAM SECTIONS
@@ -289,12 +288,4 @@ export const teamSections = [
     columns: 3,
   },
 
-  {
-    key: "volunteers",
-    label: "Volunteers",
-    members: volunteers,
-    layout: "grid",
-    cardSize: "sm",
-    columns: 3,
-  },
 ];
