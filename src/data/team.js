@@ -157,7 +157,7 @@ export const core = [
   {
     name: "ARNAB",
     role: "Core Team",
-    image: "/Pictures/core-team/arnab.jpg",
+    image: "/Pictures/core-team/Arnab.jpg",
     linkedin: "#",
     connectlink: "#",
   },
